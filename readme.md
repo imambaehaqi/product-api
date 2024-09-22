@@ -21,3 +21,11 @@ Sebelum memulai, pastikan Anda memiliki:
    ```bash
    git clone https://github.com/username/node-restful-api.git
    cd product-api
+
+2. Buat file .env untuk mengatur variabel lingkungan (opsional): Anda dapat mengatur variabel lingkungan di docker-compose.yml jika ingin menggunakan nilai yang berbeda untuk password database.
+
+3. Jalankan Docker Compose:
+   ```bash
+   docker-compose up --build
+
+4. Akses aplikasi: Aplikasi akan berjalan di http://localhost:3000.
